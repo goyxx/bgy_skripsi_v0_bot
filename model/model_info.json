@@ -1,0 +1,74 @@
+{
+  "classes": [
+    "roof_control",
+    "goodbye",
+    "greeting",
+    "light_control"
+  ],
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Halo",
+        "Hai",
+        "Apa kabar?",
+        "Selamat pagi",
+        "Selamat siang",
+        "Selamat malam"
+      ],
+      "responses": [
+        "Halo! Ada yang bisa saya bantu?",
+        "Hai! Apa kabar?",
+        "Selamat datang! Ada yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "light_control",
+      "patterns": [
+        "Nyalakan lampu",
+        "Tolong hidupkan lampu",
+        "Matikan lampu",
+        "Lampu dimatikan",
+        "Nyala lampu kamar tidur",
+        "Matikan lampu dapur"
+      ],
+      "responses": [
+        "Baik, lampu akan saya nyalakan",
+        "Lampu sudah dimatikan",
+        "Saya akan mengontrol lampu sesuai permintaan Anda"
+      ]
+    },
+    {
+      "tag": "roof_control",
+      "patterns": [
+        "Buka atap",
+        "Tutup atap",
+        "Atap dibuka",
+        "Atap ditutup",
+        "Bukakan penutup atap",
+        "Tutup penutup atapnya"
+      ],
+      "responses": [
+        "Atap sedang dibuka",
+        "Atap sedang ditutup",
+        "Penutup atap sudah saya kendalikan"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Sampai jumpa",
+        "Selamat tinggal",
+        "Dadah",
+        "Sampai nanti",
+        "Pamit dulu"
+      ],
+      "responses": [
+        "Sampai jumpa lagi!",
+        "Selamat tinggal!",
+        "Sampai bertemu lagi!"
+      ]
+    }
+  ],
+  "model_type": "svm"
+}
